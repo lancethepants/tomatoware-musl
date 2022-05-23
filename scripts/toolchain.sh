@@ -6,7 +6,7 @@ set -x
 export BASE=`pwd`
 export SRC=$BASE/src
 
-BUILDROOTVER="2022.02"
+BUILDROOTVER="git"
 TOOLCHAINDIR="/opt/tomatoware/$DESTARCH-$FLOAT-musl"
 
 
