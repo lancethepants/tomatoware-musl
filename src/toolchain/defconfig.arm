@@ -1,7 +1,7 @@
 BR2_arm=y
 BR2_cortex_a9=y
 BR2_DL_DIR="$(SRC)/toolchain/dl/"
-BR2_HOST_DIR="/opt/tomatoware/$(DESTARCH)-$(FLOAT)-musl"
+BR2_HOST_DIR="/opt/tomatoware/$(DESTARCH)-$(FLOAT)-musl-1.1.24"
 BR2_OPTIMIZE_2=y
 BR2_GLOBAL_PATCH_DIR="$(BASE)/toolchain/patches"
 BR2_TOOLCHAIN_BUILDROOT_VENDOR="tomatoware"

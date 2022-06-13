@@ -7,7 +7,7 @@ export BASE=`pwd`
 export SRC=$BASE/src
 
 BUILDROOTVER="git"
-TOOLCHAINDIR="/opt/tomatoware/$DESTARCH-$FLOAT-musl"
+TOOLCHAINDIR="/opt/tomatoware/$DESTARCH-$FLOAT-musl-1.1.24"
 
 
 if [ ! -d /opt/tomatoware ]; then
